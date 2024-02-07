@@ -1,0 +1,78 @@
+.ss {
+  box-sizing: content-box;
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  position: relative;
+  top: -104%;
+  left: 26%;
+  width: 43%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1%;
+}
+.tituloCDJ {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10%;
+}
+.tituloDJ {
+  margin-left: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+.conteinerDetails {
+  position: relative;
+  left: 2.5%;
+  width: 95%;
+  height: 87.5%;
+  background-color: aquamarine;
+}
+
+/* Estilos para el div dentro del contenedor principal */
+.infoDetailsC {
+  background-color: blue;
+  width: 100%;
+  height: 15%;
+  z-index: 255;
+}
+.textInfoDetails {
+  width: 100%;
+  height: 70%;
+  background-color: #ff9500;
+}
+
+.imgD2 {
+  border-radius: 2%;
+  position: relative;
+  top: 1%;
+  left: 10%;
+  width: 80%;
+}
+
+.odetails {
+  width: 90%;
+  background-color: #181817;
+  position: relative;
+  top: 2.5%;
+  left: 5%;
+}
+
+.fffix {
+
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-evenly; /* Ajusta el espacio entre los elementos */
+  align-items: center; /* Alinea los elementos verticalmente en el centro (opcional) */
+}
+
+/* Estilos individuales para cada elemento h2 */
+.destaco,
+.PlatformD,
+.SizeD {
+  /* Puedes agregar estilos adicionales aquí, como tamaño de fuente, color, etc. */
+  margin: 0; /* Elimina el margen por defecto de los elementos h2 */
+}
+.tituloDJ{
+  padding-top: 10px;
+}

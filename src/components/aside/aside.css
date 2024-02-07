@@ -1,0 +1,233 @@
+
+    @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+*{
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.typesga{
+    width: 100%;
+    position: relative;
+    left: -9%;
+}
+
+
+.diosAside{
+    width: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+.jesusAside{
+    width: 100%;
+    justify-content: center;
+    border-bottom-left-radius:20px;
+}
+
+
+.aside {
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.cardsAndAside {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 70% 25% 5%;
+    margin-left: 130px;
+    justify-content: center;
+}
+
+.list {
+    border-radius: 4px;
+    width: 100%;
+    justify-content: center;
+}
+
+.listItem {
+    height: 50%;
+    list-style: none;
+    width: 100%;
+    z-index: 2;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #333;
+     
+}
+
+.listItem--click {
+    cursor: pointer;
+}
+
+.listButton {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.listIcon {
+    margin-top: 10px;
+}
+
+.listLink {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    color: #ccc;
+    padding-top: 25px;
+     height: 10%;
+     width: 70%;
+     position: relative;
+     left: 15%;
+     transition: all .3s;
+}
+.listLink:hover{
+color: #FF9301;
+}
+
+.listLink--inside {
+    transition: .1s;
+}
+
+.listInside {
+    list-style-type: none;
+    width: 100%;
+    margin-left: -6%;
+}
+
+.listLink--inside:hover {
+    color: white;
+    background-color:#444 ;
+}
+
+.listShow {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    transition: height .4s;
+
+}
+
+
+
+.listButton {
+    font-size: 120%;
+}
+
+
+.listInside p {
+    padding: 2% 0px;
+    padding-left: 15%;
+    margin: 0px;
+    font-size: 100%;
+    width: 100%;
+}
+
+.list {
+    margin-top: 30px;
+}
+
+.listShow {
+    margin-top: 10%;
+}
+
+.list .apply[disabled] {
+    position: relative;
+   width: 50%;
+   left: 25%;
+   font-size: 120%;
+    background-color: #444;
+    border: none;
+    color: #888;
+    cursor: no-drop;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.list .apply {
+    position: relative;
+    width: 50%;
+    left: 25%;
+   font-size: 120%;
+   background-color:#FF9500 ;
+    cursor: pointer;
+    border: none;
+    padding: 8px 30px;
+    color: white;
+    margin-top:10px;
+    border-radius: 2px;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+
+
+
+.list .apply[disabled]:hover {
+    background-color: #444;
+}
+
+.checkbox {
+    position: relative;
+    margin-left: 10%;
+    font-size: 100%;
+}
+
+
+
+.ordenarAside {
+    position: relative;
+    background-color: #333;
+    width: 100%;
+    color: #ccc;
+    border-radius: 4px;
+}
+
+.ordenarAside a {
+    text-align: center;
+    font-size: 150%;
+    width: 50%;
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+.ordenarAside h1{
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+
+.ordenarAside p {
+    position: relative;
+    top: 5px;
+    font-size: 100%;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .2s;
+    left: 0;
+    text-indent: 12.5%;
+
+}
+
+.ordenarAside p:hover {
+    background-color: #444;
+    color: white;
+}
+
+.ordenarAside .broom {
+    border-bottom-right-radius: 2% ;
+    border-bottom-left-radius: 2%;
+    font-size: 120%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #FF9301;
+    color: white;
+}
+
+.ordenarAside .broom:hover {
+    background-color: #FF9301;
+}
