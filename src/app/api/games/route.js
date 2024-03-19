@@ -9,10 +9,15 @@ export async function GET() {
   return NextResponse.json(allDataSorted);
 }
 export async function POST(request) {
-  const data = await request.json();
-  console.log(data);
-  const newGame = await prisma.games.create({ data });
-  return NextResponse.json(newGame);
+  try {
+    const data = await request.json();
+    console.log(data);
+    const newGame = await prisma.games.create({ data });
+    return NextResponse.json(newGame);
+  } catch (error) {
+    console.error(error.message);
+    return NextResponse.json({ error: error.message }, { status: 505 });
+  }
 }
 
 export async function PUT(request) {
